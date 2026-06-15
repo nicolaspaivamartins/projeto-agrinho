@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agro Forte & Sustentável</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f7f2;
+    color:#333;
+}
+
+header{
+    background:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+    url('https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=1600&q=80');
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    color:white;
+}
+
+.hero h1{
+    font-size:4rem;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:1.3rem;
+    max-width:700px;
+    margin:auto;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:30px;
+    padding:15px 35px;
+    background:#2e7d32;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+section{
+    padding:80px 10%;
+}
+
+.titulo{
+    text-align:center;
+    font-size:2.5rem;
+    color:#2e7d32;
+    margin-bottom:40px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.card h3{
+    color:#2e7d32;
+    margin-bottom:15px;
+}
+
+.sustentabilidade{
+    background:#2e7d32;
+    color:white;
+    text-align:center;
+}
+
+footer{
+    background:#1b5e20;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <div class="hero">
+        <h1>Agro Forte & Sustentável</h1>
+        <p>
+            Produzindo alimentos com tecnologia, responsabilidade ambiental
+            e compromisso com as futuras gerações.
+        </p>
+        <a href="#servicos" class="btn">Conheça Mais</a>
+    </div>
+</header>
+
+<section id="servicos">
+    <h2 class="titulo">Nossos Pilares</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>🌱 Agricultura Sustentável</h3>
+            <p>
+                Práticas modernas que preservam o solo e reduzem impactos ambientais.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🚜 Tecnologia no Campo</h3>
+            <p>
+                Uso de drones, sensores e agricultura de precisão.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>💧 Gestão da Água</h3>
+            <p>
+                Sistemas eficientes para economia e reaproveitamento hídrico.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🌎 ESG e Responsabilidade</h3>
+            <p>
+                Compromisso com meio ambiente, sociedade e governança.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="sustentabilidade">
+    <h2>Produção com Respeito à Natureza</h2>
+    <br>
+    <p>
+        Nossa missão é unir produtividade, inovação e preservação ambiental
+        para construir um futuro mais sustentável para o agronegócio.
+    </p>
+</section>
+
+<footer>
+    <p>© 2026 Agro Forte & Sustentável | Todos os direitos reservados</p>
+</footer>
+
+</body>
+</html>
